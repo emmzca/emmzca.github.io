@@ -1,0 +1,489 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.avengers {
+  
+    column-count: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .avengers2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .avengers3 {
+  
+    column-count:1;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+     .img0 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    color: #616161;
+    }
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 150px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    .heading1 {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 0px;}
+    
+   
+    .movie{
+        column-count: 3;
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+    }
+    
+     .movie1{
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: Arial;
+        line-height: 30px;
+    }
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+     <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+<div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+
+    <h1>CAPTAIN AMERICA: THE FIRST AVENGER (2011)</h1>
+    
+       <div> 
+           <div class="movie">
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#About">About</a>
+<li><a href="#Significantitems">Significant Items</a></li>
+<li><a href="#Characters">Characters</a></li>
+</ul>
+
+           </div>
+           <a href="https://www.youtube.com/watch?v=JerVrbLldXw">
+               <img src="https://www.movieposter.com/posters/archive/main/124/MPW-62140" width="300" height=""></a>
+               
+            <div class="movie1"> <b>Release Date:</b> July 22nd 2011 <br>
+                 <b>Ratings:</b> 6.9/10 <i>(IMDb)</i>, 80% <i>(Rotton Tomatoes) </i><br>
+                  <b>Director:</b> Joe Johnston <br>
+                <b>Cast:</b> <br>
+                Chris Evans <br>
+                Sebastian Stan <br>
+                Hayley Atwell <br>
+                Hugo Weaving <br><br>
+                
+                <img src="https://www.themarysue.com/wp-content/uploads/2017/07/maxresdefault-3-1.jpg" width="340" height="">
+               
+                
+                <p class="img0">Peggy Carter and Steve Rogers</p>
+               
+               
+               
+               </div>
+              
+               </div>
+           
+        <h2 class="heading" id="About"> About</h2>
+
+    
+    <div class="avengers"> 
+        
+   <div>
+Captain America: The First Avenger is the origin movie for how Steve Rogers became  Captain America. This movie shows him before the 'super solider serum' that makes him the superhero today. He is seen being the underdog but still doing everything he can to stand up for himself, despite meaning getting beat up and bullied. However, through his cruel teenage years, he had his best friend Bucky Barnes with him. But when WWII happened and everyone was applying to join the army, Bucky got shipped out but Steve didn't because of his weak and small physicality. However, he tries and again and agains, getting rejected again and again, until finally the German scientist that developed the super solider serum saw the good in Steve's heart and his good morals and virtues. This was how Steve was chosen and volunteered for the program and it was a success, making him much more stronger. He also met friends from joining the army, such as, Peggy Carter, Howard Stark and the Howling Commandos. However, he sacrifices himself at the end of the movie and ends up being frozen for seven decades.</div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="https://media.giphy.com/media/AGL7FaLrE1mo0/giphy.gif" width="" height="210">
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+       
+          <img src="https://media.giphy.com/media/qNWRqYx6gjAze/giphy.gif" width="" height="210"></div>
+        
+        <p class="img1"> Steve Rogers and Bucky Barnes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Captain America sacrifices himself</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Significantitems"> Significant Items</h2>
+<h2 class="heading1">Tesseract</h2>
+  <div>
+    <div class="avengers2"> 
+        
+The Tesseract was the power that opened a portal to space that allowed Loki to bring his army of the Chitauri. It was also the weapon that was used in Captain America: The First Avenger. It is also the container for the space stone which holds an infinite large amount of energy. It was first placed in Odin's throne, then retrieved by the villian of Captain America: The First Avenger (Red Skull), and later contained by Howard Stark. It was later retrieved by the organization, Shield but stolen by Loki as the event of The Avengers but returned to Asgard after the events.
+       
+
+        <div class="heading2">
+ <div>
+                   
+            <div><img src="http://thecommonvision.org/wp-content/uploads/2013/07/uyj.png" width="400" height="">
+        
+
+      
+        <p class="img3" > The Tesseract in CA: The First Avenger</p></div>
+</div>
+               
+       </div>
+</div>  
+           
+          
+      <div>
+      
+      
+      <h2 class="heading" id="Characters"> Characters</h2>
+
+               
+  <div class="avengers3">
+   <img src="https://media.giphy.com/media/BxeznSENNDqk8/source.gif" width="" height="300">
+      
+     
+      
+      
+       <img src="https://uproxx.files.wordpress.com/2016/04/captain-america-first-avenger-marvels-villain-problem-red-skull-2.jpg?quality=100&w=650&h=360" width="" height="300">
+      
+     <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         Bucky Barnes and Steve Rogers
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         
+         Red Skull</div> </div> 
+      
+      <div class="imgs"> 
+       <img src="http://78.media.tumblr.com/a6a654307c8c24bf7ef1aa9a410b67e4/tumblr_nlpklo7L9M1tnpfs2o3_r2_500.gif" width="" height="300">
+      
+     <div class="img1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Peggy Carter and Steve Rogers</div> 
+
+      
+     
+      
+        </div>
+        
+
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

@@ -1,0 +1,487 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.avengers {
+  
+    column-count: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .avengers2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .avengers3 {
+  
+    column-count:2 ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+     .img0 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    color: #616161;
+    }
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 210px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    .heading1 {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 0px;}
+    
+   
+    .movie{
+        column-count: 3;
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+    }
+    
+     .movie1{
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: Arial;
+        line-height: 30px;
+    }
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+     <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+  <div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+
+    <h1>IRON MAN (2008)</h1>
+    
+       <div> 
+           <div class="movie">
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#About">About</a>
+<li><a href="#Significantitems">Significant Items</a></li>
+<li><a href="#Characters">Characters</a></li>
+</ul>
+
+           </div>
+           <a href="https://www.youtube.com/watch?v=eOrNdBpGMv8">
+               <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcTp0qlAoWcOOswIkL_qpjYzJqCCDmWXiBzCXiqbE43Obo8c0Z-s" width="300" height=""></a>
+               
+            <div class="movie1"> <b>Release Date:</b> May 2nd 2008 <br>
+                 <b>Ratings:</b> 7.9/10 <i>(IMDb)</i>, 94% <i>(Rotton Tomatoes) </i><br>
+                  <b>Director:</b> Jon Favreau <br>
+                <b>Cast:</b> <br>
+                Robert Downey Jr. <br>
+                Gwyneth Paltrow <br>
+                Jeff Bridges <br><br>
+                
+                <img src="http://extras.mnginteractive.com/live/media/site67/2013/0513/20130513__story_57057917-1364-4071-ab03-89cded89ab33~p1.jpg" width="340" height="">
+               
+                
+                <p class="img0">Gweyneth Paltrow and Robert Downey Jr.</p>
+               
+               
+               
+               </div>
+              
+               </div>
+           
+        <h2 class="heading" id="About"> About</h2>
+
+    
+    <div class="avengers"> 
+        
+   <div>
+Iron Man is the origin story movie about Tony Stark becoming the 'superhero' he is today. The story starts as he is kidnapped by terrorists to help them build a missile, as he is in charge of a weapons manufacture company. He plays alone but is secretly asking for materials to build an iron suit to escape. While he was being captured, he was involved in an explosion which caused shrapnel to enter near his heart. However, the terrorist built a battery that was placed into his chest to keep the shrapnel out. He was able to build a simple version of the arc reactor in the cave to both power the suit for a little while and still keep himself alive. After he escaped the cave, he was inspired to shut down his weapon's manufacture in his company which created a large amount of attention, being a billionaire and owning a weapons company. However, he stood for what he thought was right and focused his life on building better Iron Man suits to try and save others.</div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="https://em.wattpad.com/73483afe3fb3771a06eb0fa86ac711f537560a0d/687474703a2f2f36382e6d656469612e74756d626c722e636f6d2f39313931346464303139623962393864636263666338666464313261623631322f74756d626c725f696e6c696e655f6e6e683261746341456a3172647a7464335f3530302e676966?s=fit&h=360&w=360&q=80" width="" height="230">
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+       
+          <img src="http://www.1playerdad.com/wp-content/uploads/2015/03/Ironman-MK-II-test-2.gif" width="" height="230"></div>
+        
+        <p class="img1"> Iron Man (Mark I) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tony testing out flight system of Mark II</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Significantitems"> Significant Items</h2>
+<h2 class="heading1">Arc Reactor</h2>
+  <div>
+    <div class="avengers2"> 
+        
+The arc reactor contains a large source of power and can be able to run on sustained energy for a extremely long time. At first, it was not taken too seriously as many, even very experienced people like Tony's Father - Howard, tried to look into it but did not come out greatly. However, after the harsh conditions in the cave, Tony thought that there should be a new way to access this amount of energy to sustain a lot of power use. The original thought for this technology came from WWII, when the tesseract was discovered, which also contained an almost infinite source of energy and power.
+       
+
+        <div class="heading2">
+ <div>
+                   
+            <div><img src="http://st.gde-fon.com/wallpapers_original/406715_zheleznyj-chelovek_robert-dauni-mladshij_toni_1680x1050_www.Gde-Fon.com.jpg" width="400" height="">
+        
+
+      
+        <p class="img3" >The arc reactor in Tony's chest in the cave</p></div>
+</div>
+               
+       </div>
+</div>  
+           
+           <h2 class="heading" id="Characters"> Characters</h2>
+
+               
+  <div class="avengers3">
+   <img src="http://www.notcot.com/images/2008/05/ironman1.jpg" width="" height="300">
+      
+     <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Tony Stark </div> 
+      
+       
+        <img src="https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/iron-man-villain-e1508432714200.jpg" width="540" height="300">
+           <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Obadiah Stane (right)</div>
+     
+    
+      
+        <img src="https://pbs.twimg.com/profile_images/3739091510/9b7efd80077f0861a44376a88fcd57b0.png" width="" height="300">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           Pepper Potts </div>
+      
+      
+       <img src="http://hollywoodfly.com/wp-content/uploads/2016/09/Robert-Downey-Jr-Jon-Favreau-Iron-Man.jpg" width="" height="300">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           Happy Hogan (right)</div>
+
+      
+     
+      
+        </div>
+        
+
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

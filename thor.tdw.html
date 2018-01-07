@@ -1,0 +1,493 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.avengers {
+  
+    column-count: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .avengers2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .avengers3 {
+  
+    column-count:2;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+     .img0 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 80px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    color: #616161;
+    }
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 300px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 250px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 130px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    .heading1 {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 0px;}
+    
+   
+    .movie{
+        column-count: 3;
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+    }
+    
+     .movie1{
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: Arial;
+        line-height: 30px;
+    }
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+      <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+      
+  <div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+    
+    <h1>THOR: THE DARK WORLD (2013)</h1>
+    
+       <div> 
+           <div class="movie">
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#About">About</a>
+<li><a href="#Significantitems">Significant Items</a></li>
+<li><a href="#Characters">Characters</a></li>
+</ul>
+
+           </div>
+           <a href="https://www.youtube.com/watch?v=YtqQ-XvPba0">
+               <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Thor_-_The_Dark_World_poster.jpg" width="300" height=""></a>
+               
+            <div class="movie1"> <b>Release Date:</b> November 8th 2011 <br>
+                 <b>Ratings:</b> 7/10 <i>(IMDb)</i>, 66% <i>(Rotton Tomatoes) </i><br>
+                  <b>Director:</b> Alan Taylor <br>
+                <b>Cast:</b> <br>
+                Chris Hemsworth <br>
+                Tom Hiddleston <br>
+                Natalie Portman... <br><br>
+                
+                <img src="http://cdn.hitfix.com/photos/4269177/Chris-Hemsworth-and-Tom-Hiddleston-make-a-Natalie-Portman-sandwich.jpg" width="350" height="">
+               
+                
+                <p class="img0">Cast of Thor: The Dark World</p>
+               
+               
+               
+               </div>
+              
+               </div>
+           
+        <h2 class="heading" id="About"> About</h2>
+
+    
+    <div class="avengers"> 
+        
+   <div>
+In this movie, Jane Foster, who Thor met when he was banished to Earth in the first Thor movie, is under the influence of the aether because of the Dark Elves. After the Dark Elves got the aether in possesion, they wanted to use its power to bring back darkness to the world. After Jane was 'attacked' by the aether, because they gain life force from a host, Thor manages to save her and works with her and his brother Loki to come up with a plan to defeat the dark elves. The aether plays a very important role in this movies as it is also one of the infinity stones. However, this one is unique as it is in the form of a liquid rather than a stone.  </div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="https://media.giphy.com/media/OpvghqbUSUxtm/giphy.gif" width="" height="220">
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+       
+          <img src="https://media.giphy.com/media/Uagr8luSiKtaM/giphy.gif" width="" height="220"></div>
+        
+        <p class="img1"> Loki, Jane, and Thor before fighting the Dark Elves &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Jane and Thor on Asgard</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Significantitems"> Significant Items</h2>
+<h2 class="heading1">Aether</h2>
+  <div>
+    <div class="avengers2"> 
+        
+The Aether is an Infinity Stone, also known as the reality stone, the remnant of a singularity that predates the universe. A force of ancient and catastrophic power, the Aether has the potential to transform the entire universe. This "stone" is unique since it is in the form of a dark red, viscous liquid, rather than a literal stone, like the other five. However, evidence from the Collector's Museum, suggests the Aether may not have always been this way and may have originally been a stone similar to the others. It is currently located in the Collector's Museum. The Aether represents the Infinity Stone of Reality.
+       
+
+        <div class="img7">
+ <div>
+                   
+            <div><img src="https://nerdist.com/wp-content/uploads/2017/04/29970bc47a4febb419af4571a47f0aa9.gif" width="400" height="">
+        
+
+      
+        <p class="img3" > Aether (Reality stone)</p></div>
+</div>
+               
+       </div>
+</div>  
+           
+          
+      <div>
+      
+      
+      <h2 class="heading" id="Characters"> Characters</h2>
+
+               
+  <div class="avengers3">
+    <img src="http://cdn.mos.cms.futurecdn.net/f1a125235545065e7d09ed3398a451f8-480-80.jpg" width="" height="309">
+      
+     <div class="img6"> 
+          Thor and Loki Odinson </div> 
+      
+     
+      
+        <img src="https://ewedit.files.wordpress.com/2015/01/thor-christopher-eccleston.jpg" width="" height="310">
+      
+      
+      
+        <div class="img5"> 
+           Malekith (Dark Elf) </div>
+      
+     
+      
+</div>
+      
+     <div class="img1">
+        <img src="https://78.media.tumblr.com/9e5908238d3488ddd6c9e5b821fff23c/tumblr_n8d9e1zYVY1r0xw5zo1_500.gif" width="" height="310">
+      
+      
+      
+        <div class="img2"> 
+          Jane posessed by the Aether</div>
+         
+           
+      </div>
+
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

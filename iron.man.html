@@ -1,0 +1,517 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.ironman {
+  
+    column-count: 2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .ironman2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    }
+        
+    .ironman3 {
+  
+    column-count:1 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+       .heading1 {
+  
+    column-count:1 ;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+           .heading2 {
+  
+    column-count:2 ;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 170px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:px;
+    }
+    
+    .img2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 125px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img5 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 35px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 0px;
+    margin-bottom: px;
+    margin-right: 0px;
+    margin-left: 600px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+     .img8 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img9 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+  
+     .img10 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+     .img11 {
+        margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+        #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+    
+      
+      
+       <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+      
+      
+ <div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+    
+    
+
+    
+
+    <h1>IRON MAN (Tony Stark)</h1>
+    
+     <img  class="imgs" src="http://www.twitrcovers.com/wp-content/uploads/2012/10/The-Avengers-Iron-Man-l.jpg" width="1100" height="">
+       <div> 
+           
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#Backstory">Backstory</a></li>
+<li><a href="#Powersandabilities">Powers and Abilities</a></li>
+<li><a href="#Costumeorequipment">Costume or Equipment</a></li>
+</ul>
+</div>
+           
+        <h2 class="heading" id="Backstory"> Backstory</h2>
+
+    
+    <div class="ironman"> 
+        
+   <div>
+    
+        
+        Tony Stark, also known as Iron Man is played by Robert Downey Jr. in the MCU and was the CEO of Stark Industries, a weapons manufacture company passed down from his father, Howard Stark. He later on promoted his secretary, Pepper Potts, to CEO. His parents, Howard and Maria Stark were killed when he was only young, the killer was revealed in Captain America: Civil War. There was never a good relationship between Tony and his father either, he says in Iron Man 2: "He was cold, calculating, never told me he loved me, never even told me he liked me, so it's a bit hard for me to digest that he said the whole future is riding on me thing, I don't get that! You're talking about a man whose happiest day of his life was shipping me off to boarding school." He is known as the sarcastic, humorous and witty character. Some think that his wit comes from being egotistical, which was true. However, throughout the many movies he appears in, his character development shows him becoming more and more of a hero. He is a part of The Avengers and meets Steve Rogers (Captain America) for the first time, despite always hearing about him when he was a child from his father, since they knew each other from fighting in World War II. He is also known as a mentor for Peter Parker (Spiderman) which started when he brought him to fight along him in Captain America: Civil War. He also created a Spiderman suit for Peter as well, giving him his own AI system similar to Iron Man's JARVIS, which was named after the butler Tony had during his childhood and also stands for 'just a rather very intelligent system'. Jarvis was a sigificant character in Tony's childhood since he was the one taking care of him, instead of his parents who were often absent.</div>
+  <div>
+<div class="imgs2"><img src="https://78.media.tumblr.com/656810a98e5be5ef96904961d888a225/tumblr_mxkj65ZJ0A1r3idmyo1_500.gif" width="" height="219">
+        
+        <p class="img1" >Captain America and Howard Stark</p>
+
+       
+        <img src="https://www.hypable.com/wp-content/uploads/2015/01/captain-america-iron-man.jpg" width="" height="238">
+        
+        <p class="img2" >Captain America and Tony Stark in The Avengers</p>
+        
+        <img src="http://cdn.collider.com/wp-content/uploads/2016/12/spider-man-homecoming-trailer-image-45.png" width="" height="231"></div>
+    <p class="img3" >Tony Stark and Peter Parker</p>
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Powersandabilities"> Powers and Abilities</h2>
+  
+<div class="ironman2"> 
+Tony Stark has no so called 'super power' but he does have a very high level of intelligence. When he was kidnapped to a cave, the events of the beginning of Iron Man, he managed to build his first version of the iconic Iron Man suit with limited resources that the terrorists provided him to originally build them a nuclear weapon. He was able to escape his capture with this suit back to safety. From here on, he began building more and more advanced versions of the Iron Man suit, also able to create an AI system named JARVIS to help him maintain his suits and other technologies. In Iron Man 2, he was also able to, with the help of a video message and notes left by his father, to build a new element that helped him get rid of the Palladium poisoning that came from the Arc Reactor Core that helped with powering his suits and keeping him alive from his injuries from the kidnapping in Iron Man.        
+        
+  
+    
+        
+   <div> 
+  
+   <img src="https://static.wixstatic.com/media/a28a34_e2bc4e04d794473b8d581e60e0676c3f~mv2.gif" width="" height="">
+        
+      <p class="img4" >Example of Iron Man Suit's weaponary</p>
+
+
+       
+        <img src="https://static.wixstatic.com/media/a28a34_3f452c3a1ed148aa9a2f9c2820c9b56d~mv2.png/v1/fill/w_247,h_137,al_c,usm_0.66_1.00_0.01/a28a34_3f452c3a1ed148aa9a2f9c2820c9b56d~mv2.png" width="" height="160">
+        <p class="img5" >Controls of JARVIS in Iron Man suit</p>
+
+        
+       
+          <img src="https://static.wixstatic.com/media/a28a34_b283bd9cb552451e9872fa2b9c3d8647~mv2.png/v1/crop/x_263,y_0,w_463,h_422/fill/w_185,h_168,al_c,usm_0.66_1.00_0.01/a28a34_b283bd9cb552451e9872fa2b9c3d8647~mv2.png" width="" height="200"></div>
+        
+        <p class="img6" >Tony Stark discovering new element</p>
+
+        <img src="https://static.wixstatic.com/media/a28a34_79bfeeb6e11e4124800c5b78115b915a~mv2.png/v1/crop/x_118,y_0,w_393,h_382/fill/w_167,h_165,al_c,usm_0.66_1.00_0.01/a28a34_79bfeeb6e11e4124800c5b78115b915a~mv2.png" width="" height=""></div>
+           
+          
+               <p class="img7" >New element in arc reactor</p>
+</div>
+           
+        
+
+ 
+               
+   
+       
+          
+          
+</div>
+    
+       <div>
+
+  <h2 class="heading" id="Costumeorequipment"> Costume or Equipment</h2>
+  
+<p class="heading1">There are many versions of Iron Man suits but here are some of the most significant ones, all of them having different qualities.    </p>
+   
+        
+  
+    
+        
+<div class="heading2"> 
+    
+    <img src="https://static0.cbrimages.com/wp-content/uploads/2017/01/iron-man-mark-1-cropped.jpg" width="" height="263">
+    
+     <p class="img8">First version of Iron Man (Mark I). It is the simpliest of all designs, only made with limited mechanical pieces in a cave. It could only fly for a short distance and had flame shooters instead of energy ones.</p>
+
+    <img src="https://static.wixstatic.com/media/a28a34_a899e825f16b4eea909633fdf47459b2~mv2.gif" width="" height="271">
+        <p class="img9">This is known as the 'hulkbuster' as it was made to be able to fight the hulk in case he needed to be contained. It is also known as Iron Man (Mark XLIV).</p>
+
+     
+       
+
+        
+       
+          <img src="https://static.wixstatic.com/media/a28a34_4039aee33c834e36b6b69fb34c8eb317~mv2.gif" width="" height="225">
+        
+      <p class="img10">Fifth version of Iron Man (Mark V). It's speciality is that it fits into a suitcase, so it was made as an 'emergency' suit that could be brought around.</p>
+     
+    <div><img src="https://static.wixstatic.com/media/a28a34_36ddb238f8ef44b3b01b95d4e88720cc~mv2.gif" width="" height="220"></div>
+           <p class="img11">This is Tony's 43rd suit (Mark XLIII), it was used during the events of Avengers: Age of Ultron. It was made with infra-red scans to detect energy fields. It is also the core suit for the 'hulkbuster' that was used in the same movie.</p></div>
+   
+
+           </div>
+  
+  
+        
+
+ 
+               
+   
+       
+          
+          
+
+</body>
+
+
+  
+
+  
+       
+</html>

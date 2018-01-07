@@ -1,0 +1,514 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.avengers {
+  
+    column-count: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .avengers2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .avengers3 {
+  
+    column-count:2 ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+     .img0 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 80px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    color: #616161;
+    }
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 165px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    .heading1 {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 0px;}
+    
+   
+    .movie{
+        column-count: 3;
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+    }
+    
+     .movie1{
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: Arial;
+        line-height: 30px;
+    }
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+      <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+      
+<div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+    
+    <h1>THE AVENGERS (2012)</h1>
+    
+       <div> 
+           <div class="movie">
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#About">About</a>
+<li><a href="#Significantitems">Significant Items</a></li>
+<li><a href="#Characters">Characters</a></li>
+</ul>
+
+           </div>
+           <a href="https://www.youtube.com/watch?v=eOrNdBpGMv8">
+               <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcTp0qlAoWcOOswIkL_qpjYzJqCCDmWXiBzCXiqbE43Obo8c0Z-s" width="300" height=""></a>
+               
+            <div class="movie1"> <b>Release Date:</b> May 4th 2012 <br>
+                 <b>Ratings:</b> 8.1/10 <i>(IMDb)</i>, 92% <i>(Rotton Tomatoes) </i><br>
+                  <b>Director:</b> Joss Whedon <br>
+                <b>Cast:</b> <br>
+                Chris Hemsworth <br>
+                Chris Evans <br>
+                Robert Downey Jr. <br>
+                Scarlett Johansson <br>
+                Mark Ruffalo <br>
+                Jeremy Renner <br><br>
+                
+                <img src="https://media.giphy.com/media/66jnJva9V9Ayc/giphy.gif" width="300" height="">
+               
+                
+                <p class="img0">Cast of the Avengers</p>
+               
+               
+               
+               </div>
+              
+               </div>
+           
+        <h2 class="heading" id="About"> About</h2>
+
+    
+    <div class="avengers"> 
+        
+   <div>
+The Avengers talks about 'the world's mightiest heroes' (Captain America, Thor Odinson, Iron Man, The Hulk, Black Widow and Hawkeye) assembling to fight against an evil army of aliens called Chitauri that was led by Thor's brother, Loki. This group of heroes, The Avengers, was assembled as 'the avengers initiative' that was made by Nick Fury of Shield. The film is set in New York and starts when the tesseract, also known as the container for the space stone (one of the six infinity stones, where each of them was a singularity that existed before the universe was created) is activated in a Shield lab. It became the highest grossing film of 2012 and was the third highest in the world.</div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="https://media1.tenor.com/images/32a78d64728cfd9d3c353f7dfafb76a0/tenor.gif?itemid=3549887" width="" height="250">
+       
+
+        
+       
+          <img src="https://annoyingrambles.files.wordpress.com/2014/12/avengers-gif.gif" width="" height="250"></div>
+        
+        <p class="img1" >Group shot from The Avengers (1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Group shot from The Avengers (2)</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Significantitems"> Significant Items</h2>
+<h2 class="heading1">Tesseract</h2>
+  <div>
+    <div class="avengers2"> 
+        
+The Tesseract was the power that opened a portal to space that allowed Loki to bring his army of the Chitauri. It was also the weapon that was used in Captain America: The First Avenger. It is also the container for the space stone which holds an infinite large amount of energy. It was first placed in Odin's throne, then retrieved by the villian of Captain America: The First Avenger (Red Skull), and later contained by Howard Stark. It was later retrieved by the organization, Shield but stolen by Loki as the event of The Avengers but returned to Asgard after the events.
+       
+
+        <div class="heading2">
+ <div>
+                   
+            <div><img src="https://i.ytimg.com/vi/MZlnu99ggV0/maxresdefault.jpg" width="400" height="">
+        
+
+      
+        <p class="img3" >The Tesseract in The Avengers</p></div>
+</div>
+               
+       </div>
+</div>  
+           
+           <h2 class="heading" id="Characters"> Characters</h2>
+
+               
+  <div class="avengers3">
+   <img src="https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61d1e4b0d911b44a240a/1334099821967/1000w/chris-evans-captain-america-the-avengers-interview-41012.jpg" width="" height="300">
+      
+     <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Captain America </div> 
+      
+       
+        <img src="https://s.aolcdn.com/hss/storage/midas/4dd72746162010de1c7052571f8fa27/201619706/Hemsworth+Thor.jpg" width="" height="300">
+           <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           Thor Odinson </div>
+     
+    
+      
+        <img src="http://images5.fanpop.com/image/photos/31200000/The-Hulk-yelling-dr-bruce-banner-31267409-1880-1030.jpg" width="" height="300">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           The Hulk </div>
+      
+
+      
+      <img src="http://www.screengeek.net/wp-content/uploads/2017/06/iron-man.png" width="" height="300">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Iron Man 
+           
+      </div>
+      
+
+      <img src="https://www.straight.com/files/v3/images/15/04/widow.png" width="" height="300">
+       <div class="img5">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Black Widow
+           
+      </div>
+      
+      
+      <img src="http://www.tvovermind.com/wp-content/uploads/2017/08/HawkeyeAvengersRenner2.jpg" width="" height="300">
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Hawkeye
+      </div>
+ 
+      <img src="https://i.kinja-img.com/gawker-media/image/upload/s--2Ih5kpLu--/c_fill,fl_progressive,g_center,h_450,q_80,w_800/18xpxzbsmya66jpg.jpg" width="" height="300">
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Loki Laufeyson (Villian) 
+      </div>
+      
+
+        <img src="https://i.ytimg.com/vi/HTmIiR1hMmM/maxresdefault.jpg" width="" height="300">
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Nick Fury
+      </div>
+        </div>
+        
+
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

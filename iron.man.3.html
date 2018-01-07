@@ -1,0 +1,467 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.avengers {
+  
+    column-count: 1;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .avengers2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .avengers3 {
+  
+    column-count:2 ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+     .img0 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 125px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    color: #616161;
+    }
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+    margin-left: 40px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    .heading1 {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 0px;}
+    
+   
+    .movie{
+        column-count: 3;
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+    }
+    
+     .movie1{
+        margin-left: 0px;
+        margin-top: 30px;  
+        margin-right: 0px;
+        font-size: 16px;
+        font-family: Arial;
+        line-height: 30px;
+    }
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+     <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+      
+<div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+
+    <h1>IRON MAN 3 (2013)</h1>
+    
+       <div> 
+           <div class="movie">
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#About">About</a>
+<li><a href="#Characters">Characters</a></li>
+</ul>
+
+           </div>
+           <a href="https://www.youtube.com/watch?v=V59_6zk1Hgg">
+               <img src="https://pmcdeadline2.files.wordpress.com/2013/03/iron-man-3__130320011415.jpg" width="310" height=""></a>
+               
+            <div class="movie1"> <b>Release Date:</b> May 3rd 2013 <br>
+                 <b>Ratings:</b> 7.2/10 <i>(IMDb)</i>, 80% <i>(Rotton Tomatoes) </i><br>
+                  <b>Director:</b> Shane Black <br>
+                <b>Cast:</b> <br>
+                Robert Downey Jr. <br>
+                Gwyneth Paltrow <br>
+                Ben Kingsley <br>
+                Guy Pearce <br><br>
+                
+                <img src="https://soulsteer.com/wp-content/uploads/2013/04/Audi-R8-e-tron-enjoys-special-screening-of-Iron-Man-1.jpg" width="340" height="">
+               
+                
+                <p class="img0">Iron Man 3 cast</p>
+               
+               
+               
+               </div>
+              
+               </div>
+           
+        <h2 class="heading" id="About"> About</h2>
+
+    
+    <div class="avengers"> 
+        
+   <div>
+Iron Man 3 shows Tony's battle with anxiety after the scarring events of The Avengers, as well as his battle against Aldrich Killian. He was interested in working with Tony a very long time ago but was rejected by him, but since then he has advanced his technology project a lot more and has been conducting experiments of regenerating tissue. However, a glitch in this experiment is that if the subject is unstable, they will burst into flames and explode. His first battle was against a terrorist that was going by the name 'the mandarin', who has orchestrated many bombings but with no evidence to find how he managed to do it. The two: Killian and the mandarin are connected in this movie that is somewhat of a plot twist. Tony also developed a new Iron Man suit (Mark 42) in the beginning that could sense his location and was helpful escaping a capture later on in the movie.</div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="https://media.giphy.com/media/s08eBlgbazn44/giphy.gif" width="" height="220">
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+       
+          <img src="https://78.media.tumblr.com/b458db1875478711c307d176f3efff45/tumblr_n0asfo7Dsm1stof7fo1_500.gif" width="" height="220"></div>
+        
+        <p class="img1"> Iron Man suits assembling to fight againt Killian's experiments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tony testing his new suit (Mark 42)</p>
+
+    </div></div>
+
+           <div>
+
+           <h2 class="heading" id="Characters"> Characters</h2>
+
+               
+  <div class="avengers3">
+   <img src="http://www.mattderody.com/wp-content/uploads/2013/08/Iron-Man-3.jpg" width="" height="300">
+      
+     <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Tony Stark </div> 
+      
+       
+        <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/audio/video/2013/4/26/1366975138720/Still-from-Iron-Man-3-012.jpg?w=640&q=55&auto=format&usm=12&fit=max&s=6acb47958f065c74fb65cb2a00ede207" width="535" height="312">
+           <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Pepper Potts (right)</div>
+     
+    
+      
+        <img src="http://nerdbastards.com/wp-content/uploads/2014/01/kingsley-mandarin.jpg" width="" height="300">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           'The Mandarin' </div>
+      
+      
+       <img src="http://lytherus.com/wp-content/uploads/2013/05/iron-man-3-new-character-poster-for-aldrich-killian.jpg" width="" height="312">
+      
+        <div class="img5"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           Aldrich Killian</div>
+
+      
+     
+      
+        </div>
+        
+
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

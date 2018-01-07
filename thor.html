@@ -1,0 +1,436 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.thor {
+  
+    column-count: 2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .thor2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .thor3 {
+  
+    column-count:1 ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+    margin-top: 5px;
+    margin-bottom: 120px;
+    margin-right: 0px;
+    margin-left: 130px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:20px;
+    }
+    
+    .img2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 140px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 135px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 15px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+      .heading2 {margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+   
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+       <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+<div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+    
+    
+
+    
+
+    <h1>THOR ODINSON</h1>
+    
+     <img  class="imgs" src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/19/16/thor-ragnarok.jpeg" width="1100" height="">
+       <div> 
+           
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#Backstory">Backstory</a>
+<li><a href="#Powersandabilities">Powers and Abilities</a></li>
+<li><a href="#Costumeorequipment">Costume or Equipment</a></li>
+</ul>
+</div>
+           
+        <h2 class="heading" id="Backstory"> Backstory</h2>
+
+    
+    <div class="thor"> 
+        
+   <div>
+Thor Odinson is from a planet called Asgard, he is the son of the king and has an adopted brother named Loki, who is from another planet named Jotunheim, who has fought against Asgard. While Thor is known as the 'god of thunder, Loki is known as the 'god of mischeive'. They end up having a very complicated relationship, as many betrayals happen between them. His father Odin, raised them together without telling them about Loki till he found out himself when battling on Jotunheim with Asgardians. Thor was about to become King when the Jotunheims attacked Asgard and Thor went to fight against them, betraying his father. This caused him to be banished to Earth. He learns about the different customs of Earth, as life on Asgard is very different and more royal and glamorous. This is how he becomes known on Earth, as he has abilities greater than humans, such as being a lot stronger. Apart from that he is known as the 'god of thunder' which is why he also has the ability to control lighting. He is also worthy of the Mjolnir which is a hammer that can only be wielded by someone who is 'worthy' of it. So, practically the only person who can carry it is Thor. </div>
+  <div>
+<div class="imgs2">
+
+
+
+       
+        <img src="http://media.comicbook.com/2017/06/marvel-thor-ragnarok-relationship-with-loki-1003384-1280x0.jpg" width="500" height="">
+        <p class="img6" >Loki and Thor</p>
+
+        
+       
+          <img src="https://media.wired.com/photos/593236bb4dc9b45ccec5c9e6/2:1/w_2500,c_limit/thorhammer-ft.jpg" width="500" height=""></div>
+        
+        <p class="img7" >Thor wielding the Mjolnir</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Powersandabilities"> Powers and Abilities</h2>
+  <div>
+    <div class="thor2"> 
+        
+As the 'god of thunder', Thor is able to summon lightning and thunder, as well as wielding the Mjolnir, which was made from the heart of a dying star. It has the strength to destroy many things, as well as channeling lighting and power. It also allows Thor to fly as well. Since it is only to be held by someone 'worthy', if it's placed or held by anyone else it would them to not be able to move from it because they are not 'worthy' to hold or move it. 
+       
+
+        <div class="heading2">
+ <div>
+   <img src="https://media.giphy.com/media/Ch1zCx8tu6DQY/giphy.gif" width="550" height="">
+                <p class="img1" >Example of Thor summoning lightning</p></div>
+           
+            
+            <div><img src="https://biggiesplace.files.wordpress.com/2016/02/avengers-thor-hammer-fake.gif" width="517" height="">
+        
+
+      
+        <p class="img2" >Example of Thor using the Mjolnir in battle</p></div>
+            
+                   
+            <div><img src="https://media1.popsugar-assets.com/files/thumbor/SnaAuhM7VjsRvXELOYaODoUSGz8/fit-in/1200x630/filters:format_auto-!!-:strip_icc-!!-:fill-!white!-/2014/11/19/909/n/1922283/12eab5854127ccce_thor5/i/When-He-Flies-Like-Boss.gif" width="517" height="">
+        
+
+      
+        <p class="img3" >Example of Thor using the Mjolnir in battle</p></div>
+</div>
+               
+       </div>
+</div>  
+           
+           <h2 class="heading" id="Costumeorequipment"> Costume or Equipment</h2>
+  
+    <div class="thor3"> 
+Thor's costume stays relatively the same till the last of the Thor trilogy - Thor: Ragnarok.
+               </div>
+               
+  <div class="thor3">
+   <img src="https://i.pinimg.com/originals/ac/07/06/ac0706b7cf244d4850ee9b017e8520e1.jpg" width="" height="450">
+        <img src="https://i.pinimg.com/originals/3e/c9/b5/3ec9b538ef4c8f77dad99a9c1f993d39.jpg" width="" height="450">
+        <img src="https://bloximages.chicago2.vip.townnews.com/thedailytimes.com/content/tncms/assets/v3/editorial/0/03/00345f86-3fa9-5930-b8c4-1ea25b2e2547/5a03896ba47a7.image.jpg" width="300" height="">
+        </div>
+        
+      <p class="img4" >
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Thor: The Dark World &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          The Avengers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Thor: Ragnarok 
+        </p>
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>

@@ -1,0 +1,426 @@
+  <!DOCTYPE html>
+<html>
+  
+    
+    
+ 
+    
+    
+    <head>
+        
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #951818;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #951818;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+     h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+  
+    
+
+
+.captain {
+  
+    column-count: 2;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .captain2 {
+  
+    column-count:2 ;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+  
+    
+      .captain3 {
+  
+    column-count:0 ;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    
+    
+}
+    
+    .imgs {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    .imgs2 {
+        margin-top: 30px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height:0px;
+    }
+    
+    
+    
+    .img1 {
+        margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 120px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:px;
+    }
+    
+    .img2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 160px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    .img3 {
+        margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 150px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 0px;
+    color: #616161;
+    }
+    
+    
+    .img4 {
+        margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+
+    }
+    
+    .img5 {
+        margin-top: 15px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 100px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img6 {
+        margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 75px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    .img7 {
+        margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 115px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #616161;
+    line-height:0px;
+    }
+    
+    
+    
+    
+    
+    .heading {margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+      .heading2 {margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 0px;}
+    
+    
+    #toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 5px solid #951818;
+    display: table;
+    font-size: 16px;
+    font-family: Arial;
+    margin-bottom: 1em;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+
+}
+
+.toc_title {
+    font-size:20px;
+    font-weight: 700;
+    text-align: left;
+}
+    
+    .toc_list {
+    line-height: 30px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+
+}
+</style>
+</head>
+<body>
+    
+    
+
+<div class="navbar">
+  <a href="home.html"><b>MARVEL</b></a>
+  
+   
+  <div class="dropdown">
+    <button class="dropbtn">Characters</button>
+    <div class="dropdown-content">
+      <a href="iron.man.html">Iron Man</a>
+      <a href="captain.america.html">Captain America</a>
+      <a href="thor.html">Thor</a>
+      </div>
+         
+        
+    </div>
+      
+      
+     <div class="dropdown">
+          <button class="dropbtn">Movies</button>
+    <div class="dropdown-content">
+           <a href="the.avengers.html">The Avengers</a>
+      <a href="avengers.aou.html">Avengers: Age of Ultron</a>
+        <a href="iron.man.m.html">Iron Man</a>
+      <a href="iron.man.2.html">Iron Man 2</a>
+        <a href="iron.man.3.html">Iron Man 3</a>
+      <a href="captain.america.tfa.html">Captain America: The First Avenger</a>
+        <a href="captain.america.tws.html">Captain America: The Winter Soldier</a>
+      <a href="captain.america.cw.html">Captain America: Civil War</a>
+        <a href="thor.m.html">Thor</a>
+        <a href="thor.tdw.html">Thor: The Dark World</a>
+        <a href="thor.r.html">Thor: Ragnarok</a>
+       </div>
+          </div>
+      
+      
+ <div class="navbar">
+    <a href="comparisons.html">Comparisons</a>
+     <a href="timelines.html">Timelines</a>
+    </div>
+</div>
+
+    
+
+    
+
+    <h1>CAPTAIN AMERICA (Steve Rogers)</h1>
+    
+     <img  class="imgs" src="https://filmmelier.files.wordpress.com/2016/08/captain-america-civil-war-wallpaper-9qgxp.jpg" width="1100" height="">
+       <div> 
+           
+           <div id="toc_container">
+<p class="toc_title">Table of Contents</p>
+<ul class="toc_list">
+  <li><a href="#Backstory">Backstory</a>
+<li><a href="#Powersandabilities">Powers and Abilities</a></li>
+<li><a href="#Costumeorequipment">Costume or Equipment</a></li>
+</ul>
+</div>
+           
+        <h2 class="heading" id="Backstory"> Backstory</h2>
+
+    
+    <div class="captain"> 
+        
+   <div>
+Steve Rogers, also known as Captain America is a World War II veteran from Brooklyn. He was originally an underdog, having many health issues as a child and teenager. This was an issue when he tried to join the army for World War II but was chosen and volunteered for a 'super soldier program'. The experiment was a success and heightened all his abilities, which made him to be known as the 'world's first superhero'. His parents both past when he was still young but he had his best friend Bucky Barnes to support him. They ended up fighting in the war together but unfortunately Bucky did not make it out exactly but comes back after decades. He is known as the righteous character, but a different side of him is explored in Captain America: Civil War, as he is on the other side of the law, of what is considered 'right'. He is also part of The Avengers as well as in World War II, the Howling Commandos. Within The Avengers, he is considered the leader and 'captain' of the group. He was frozen for 70 years after landing a plane into the ocean but was found alive. He is taken in by S.H.I.E.L.D., a government agency, after being discovered. </div>
+  <div>
+<div class="imgs2">
+   <img src="https://static.wixstatic.com/media/a28a34_b0484907d4e444529914e314daf4e135~mv2.jpg/v1/crop/x_0,y_0,w_992,h_451/fill/w_360,h_164,al_c,q_80,usm_0.66_1.00_0.01/a28a34_b0484907d4e444529914e314daf4e135~mv2.webp" width="" height="210">
+        
+      <p class="img5" >Before and after super soldier program</p>
+
+
+       
+        <img src="https://media.vanityfair.com/photos/5680acce2c593fd3139275d6/master/pass/bucky-steve-rogers-captain-america.jpg" width="500" height="">
+        <p class="img6" >Steve Rogers and Bucky Barnes in CA: The First Avenger</p>
+
+        
+       
+          <img src="https://images.moviepilot.com/images/c_limit,q_auto:good,w_600/y4aopuqd98ravdmuj1kq/wait-that-s-how-they-thawed-captain-america-out.jpg" width="500" height=""></div>
+        
+        <p class="img7" >Captain America found frozen after 70 years</p>
+
+    </div></div>
+
+           <div>
+
+  <h2 class="heading" id="Powersandabilities"> Powers and Abilities</h2>
+  
+    <div class="captain2"> 
+Steve Rogers has enhanced physicalities, such as enhanced strengths, speed, agility and healing abilities. This allows him to be able to fight a lot better and efficiently in any battles. He has also developed skills to be able to throw his iconic shield pricisely with force and direction so that's very useful in battles as well. There has also been something developed to put into Cap's costume that allows the shield to detect him and can return to him automatically, and is probably built by Tony because of his amount of knowledge and skill about technology. His enhanced strength allows him to be able to bend common types of metal easily, lift heavy items (motorcycles, metal beams), as well as ripping a piece of wood with his bare hands and also holding down a helicopter. His enhanced speed allows him to chase down others and keep up with most vehicles too. In Captain America: The Winter Soldier, it was also shown that he could run over 13 miles in half an hour. His healing abilities allow him to be immune diseases, and heal wounds faster, but this also means that he is not able to be intoxicated by any toxins but acohol too.
+       
+  
+   <img src="https://media.giphy.com/media/tB6MDLMA55U40/giphy.gif" width="" height="">
+        
+      <p class="img1" >Captain America throwing his shield</p>
+
+
+       
+        <img src="https://media.giphy.com/media/lOcXl1bumD9WE/giphy.gif" width="" height="265">
+        <p class="img2" >Example of Cap's abilities</p>
+
+       <div> <img src="http://www.chaofanzhuan.net/url.php?p=http://mmbiz.qpic.cn/mmbiz_gif/ZAFAFWDuWzlqED0kXib1ycX803gslibqbLUwEibckDKATg5qwj8RedMcFYePa2Lq2nbTKiaofJlNEVJHiceRibjyq1zg/0&wx_fmt=gif" width="" height="199"></div>
+        
+        <p class="img3" >Captain America running 13 miles</p></div> 
+       
+</div>  
+           
+           <h2 class="heading2" id="Costumeorequipment"> Costume or Equipment</h2>
+  
+    <div class="captain3"> 
+There are many versions of both Captain America's suit and shield. The first version was seen in Captain America: The First Avenger, which was his appearance as the Captain. This suit and shield was designed by Tony Stark's father, Howard Stark as he was working with Steve during World War II. His second version was also designed by Howard Stark and used in WWII but it was an updated version for battle. From here on Steve uses the same vibranium shield he picked out out of all the designs Howard Stark came up with in WWI but the suit changes in every movie. The third version of the suit was in The Avengers, where Shield designed a new suit for Cap after he was found in the ice to fight in the events of the movie. The fourth version of the suit was seen in Captain America: The Winter Soldier, which featured less red and darker so it was nicknamed the 'stealth suit'. Finally, the last suit was used in Captain America: Civil War, which went back to the more 'classic' look. The second version of the suit was also seen used in CA: The Winter Soldier.
+       
+  
+   <img src="https://i.stack.imgur.com/xFjwL.jpg" width="1100" height="">
+        
+      <p class="img4" >
+          The First Avenger (1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          The First Avenger (2) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          The Avengers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          The Winter Soldier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Civil War 
+        </p>
+
+
+       
+     
+       
+         
+
+          
+</div>
+    
+    
+    
+</body>
+
+
+  
+
+  
+       
+</html>
